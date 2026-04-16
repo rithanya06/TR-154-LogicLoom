@@ -1,4 +1,3 @@
-import React from 'react';
 import type { HospitalInfo } from '../types';
 import { MapPin, Phone, Navigation } from 'lucide-react';
 import { motion } from 'framer-motion';
