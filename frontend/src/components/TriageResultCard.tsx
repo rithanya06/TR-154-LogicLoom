@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle, HeartPulse, Hospital, AlertTriangle, HelpCircle, ActivitySquare } from 'lucide-react';
 import type { TriageResponse } from '../types';
