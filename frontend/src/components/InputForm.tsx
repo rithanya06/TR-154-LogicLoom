@@ -1,4 +1,3 @@
-import React from 'react';
 import { User, Activity, FileEdit } from 'lucide-react';
 import { LanguageSelector } from './LanguageSelector';
 import { VoiceInputButton } from './VoiceInputButton';
