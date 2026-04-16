@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background-dark text-text-primary min-h-screen font-sans;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-background-card/80 backdrop-blur-md shadow-xl border border-background-variant;
+  }
+  
+  .glass-input {
+    @apply bg-background-variant/40 border border-background-variant focus:border-primary-light focus:ring-1 focus:ring-primary-light transition-all rounded-xl w-full p-3 outline-none text-text-primary placeholder:text-text-tertiary;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-br from-primary-dark/40 via-background-dark/80 to-background-dark min-h-screen;
+  }
+}
+
+/* Custom scrollbar for web implementation */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+  background: #1A3050; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #14A3A8; 
+}
